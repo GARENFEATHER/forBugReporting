@@ -1,0 +1,157 @@
+
+Running "shell:bower-install" (shell) task
+bower ESUDO         Cannot be run with sudo
+
+Additional error details:
+Since bower is a user command, there is no need to execute it with superuser permissions.
+If you're having permission errors when using bower without sudo, please spend a few minutes learning more about how your system should work and make any necessary repairs.
+
+http://www.joyent.com/blog/installing-node-and-npm
+https://gist.github.com/isaacs/579814
+
+You can however run a command with sudo using --allow-root option
+Warning: Command failed: bower install
+bower ESUDO         Cannot be run with sudo
+
+Additional error details:
+Since bower is a user command, there is no need to execute it with superuser permissions.
+If you're having permission errors when using bower without sudo, please spend a few minutes learning more about how your system should work and make any necessary repairs.
+
+http://www.joyent.com/blog/installing-node-and-npm
+https://gist.github.com/isaacs/579814
+
+You can however run a command with sudo using --allow-root option
+ Use --force to continue.
+
+Aborted due to warnings.
+Warning: Failed running "grunt init" in "core/client". Use --force to continue.
+
+Aborted due to warnings.
+Done in 128.43s.
+Running "dev" task
+
+Running "clean:built" (clean) task
+>> 0 paths cleaned.
+
+Running "bgShell:client" (bgShell) task
+
+Running "express:dev" (express) task
+Starting background Express server
+Running "subgrunt:watch" (subgrunt) task
+Running "shell:ember:watch" (shell) task
+[2018-03-10 16:25:13] WARN Theme's file locales/en.json not found.
+[2018-03-10 16:25:13] INFO Ghost is running in development...
+[2018-03-10 16:25:13] INFO Listening on: 127.0.0.1:2368
+[2018-03-10 16:25:13] INFO Url configured as: http://localhost:2368/
+[2018-03-10 16:25:13] INFO Ctrl+C to shut down
+[2018-03-10 16:25:13] INFO Ghost boot 4.717s
+
+Running "watch" task
+Waiting...
+>> Missing bower packages:
+>> Package: devicejs
+>>   * Specified: 0.2.7
+>>   * Installed: (not installed)
+>>
+>> Package: Faker
+>>   * Specified: 3.1.0
+>>   * Installed: (not installed)
+>>
+>> Package: google-caja
+>>   * Specified: 6005.0.0
+>>   * Installed: (not installed)
+>>
+>> Package: keymaster
+>>   * Specified: 1.6.3
+>>   * Installed: (not installed)
+>>
+>> Package: normalize.css
+>>   * Specified: 3.0.3
+>>   * Installed: (not installed)
+>>
+>> Package: pretender
+>>   * Specified: 1.1.0
+>>   * Installed: (not installed)
+>>
+>> Package: rangyinputs
+>>   * Specified: 1.2.0
+>>   * Installed: (not installed)
+>>
+>> Package: validator-js
+>>   * Specified: 3.39.0
+>>   * Installed: (not installed)
+>>
+>> Run `bower install` to install missing dependencies.
+>>
+>>
+>>
+>> Stack Trace and Error Report: /tmp/error.dump.7b53f06a5f5aab5a1fbf08c911583d66.log
+>> An error occurred in the constructor for ember-cli-dependency-checker at /usr/local/Ghost/core/client/node_modules/ember-cli-dependency-checker
+>> npm ERR! code ELIFECYCLE
+>> npm ERR! errno 1
+>> npm ERR! ghost-admin@1.21.4 start: `ember serve "--live-reload-base-url=/ghost/" "--live-reload-port=4201"`
+>> npm ERR! Exit status 1
+>> npm ERR!
+>> npm ERR! Failed at the ghost-admin@1.21.4 start script.
+>> npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+>> npm ERR! A complete log of this run can be found in:
+>> npm ERR!     /root/.npm/_logs/2018-03-10T16_25_16_266Z-debug.log
+Warning: Command failed: npm run start -- --live-reload-base-url="/ghost/" --live-reload-port=4201
+
+Missing bower packages:
+Package: devicejs
+  * Specified: 0.2.7
+  * Installed: (not installed)
+
+Package: Faker
+  * Specified: 3.1.0
+  * Installed: (not installed)
+
+Package: google-caja
+  * Specified: 6005.0.0
+  * Installed: (not installed)
+
+Package: keymaster
+  * Specified: 1.6.3
+  * Installed: (not installed)
+
+Package: normalize.css
+  * Specified: 3.0.3
+  * Installed: (not installed)
+
+Package: pretender
+  * Specified: 1.1.0
+  * Installed: (not installed)
+
+Package: rangyinputs
+  * Specified: 1.2.0
+  * Installed: (not installed)
+
+Package: validator-js
+  * Specified: 3.39.0
+  * Installed: (not installed)
+
+Run `bower install` to install missing dependencies.
+
+
+
+Stack Trace and Error Report: /tmp/error.dump.7b53f06a5f5aab5a1fbf08c911583d66.log
+An error occurred in the constructor for ember-cli-dependency-checker at /usr/local/Ghost/core/client/node_modules/ember-cli-dependency-checker
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ghost-admin@1.21.4 start: `ember serve "--live-reload-base-url=/ghost/" "--live-reload-port=4201"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the ghost-admin@1.21.4 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2018-03-10T16_25_16_266Z-debug.log
+ Use --force to continue.
+
+Aborted due to warnings.
+Warning: Failed running "grunt shell:ember:watch --live-reload-base-url="/ghost/"" in "core/client". Use --force to continue.
+
+Aborted due to warnings.
+>> Error: Command failed: grunt subgrunt:watch
